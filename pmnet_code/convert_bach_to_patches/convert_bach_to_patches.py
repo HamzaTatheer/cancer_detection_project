@@ -92,11 +92,11 @@ except:
 	print("File already exists");
 
 
-#svs_dir = '../pmnet_dataset/bach/WSI/';
-#xml_dir = '../pmnet_dataset/bach/XML/';
+#svs_dir = '../../pmnet_dataset/bach/WSI/';
+#xml_dir = '../../pmnet_dataset/bach/XML/';
 
-svs_dir = '../pmnet_dataset/dryad/WSI/'; #technically contains pngs not svs but nonetheless same thing
-xml_dir = '../pmnet_dataset/dryad/XML/';
+svs_dir = '../../pmnet_dataset/dryad/WSI/';
+xml_dir = '../../pmnet_dataset/dryad/XML/';
 
 print('START');
 

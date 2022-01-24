@@ -3,5 +3,5 @@ apt update
 apt install -y openslide-tools
 pip3 install git+https://github.com/ysbecca/py-wsi
 pip3 install pandas
-cd /shared_local/pmnet/pmnet_code
+cd /shared/pmnet/pmnet_code/convert_bach_to_patches
 python3 ./convert_bach_to_patches.py
