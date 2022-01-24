@@ -52,8 +52,9 @@ def create_patches(svs_path, patches_path, xml_dir):
   print("Level count:         " + str(level_count))
   print("Level tiles:         " + str(level_tiles))
   print("Level dimensions:    " + str(level_dims))
+ 
   try:
-    #turtle.sample_and_store_patches(patch_size, level, overlap, load_xml=True, limit_bounds=True)
+    turtle.sample_and_store_patches(patch_size, level, overlap, load_xml=True, limit_bounds=True)
     return True
   except Exception:
     print("Error: ")
@@ -87,7 +88,7 @@ def generate_patches_csv(dir_path):
     return files;
 
 try:
-	os.mkdir('./patches_temp');
+	os.mkdir('../patches_temp');
 except:
 	print("File already exists");
 
@@ -98,8 +99,9 @@ except:
 svs_dir = '../../pmnet_dataset/dryad/WSI/';
 xml_dir = '../../pmnet_dataset/dryad/XML/';
 
+
 print('START');
 
-create_patches(svs_dir, "./patches_temp/",xml_dir);
+create_patches(svs_dir, "../patches_temp/",xml_dir);
 
 print('DONE');

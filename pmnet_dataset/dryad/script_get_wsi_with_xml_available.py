@@ -32,7 +32,7 @@ for i in range(len(res1)):
 
 
 for i in range(len(res2)):
-    os.remove('./WSI/'+res2[i] + '.png');
+    os.remove('./WSI/'+res2[i] + '.svs');
 
 print('Done');
 
